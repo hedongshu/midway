@@ -103,7 +103,7 @@ export default {
 我们可以在任意的代码中注入使用。
 ```typescript
 import { Provide, Controller, Inject, Get } from '@midwayjs/decorator';
-import { CosService } from '@midwayjs/cos';
+import { COSService } from '@midwayjs/cos';
 
 @Provide()
 export class UserService {
@@ -117,7 +117,7 @@ export class UserService {
       Region: 'ap-guangzhou',
       Key: '1.zip',
       FilePath: './1.zip'
-    },
+    })
   }
 }
 ```
